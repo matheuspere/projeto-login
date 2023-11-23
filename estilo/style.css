@@ -80,3 +80,51 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+div.campo > label {
+    display: none;
+}
+
+form > div.campo {
+
+    background-color: #05F29B;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #F26B1D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #ff3c00;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #dd7031;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
+}
